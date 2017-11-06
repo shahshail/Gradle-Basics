@@ -1,0 +1,18 @@
+/*
+Gradle build scripts are written in Groovy. Groovy is a language that runs on
+the JVM that fills a hole for Java developers who need a scripting language.
+It's terse, expressive, interoperates extremely well with Java, and has some
+special features that make it ideally suited for creating domain specific
+languages.
+
+in this file i am going to write some simple groovy codes
+
+We'll just declare a task called `groovy` that doesn't do anything. To run
+this script, just ask Gradle to run the `groovy` task using
+
+    $ gradle groovy
+*/
+
+task groovy << {}
+
+println "Hello World"
